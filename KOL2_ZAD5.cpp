@@ -2,18 +2,18 @@
 #include<cstdlib>
 #include<ctime>
 using namespace std;
-void sum(int x, int y){
+void sum(int a, int b){
 	int sum = 0;
-	x = rand() % 101000 + 1;
-	y = rand() % 101000 + 1;
-	cout << x << " " << y << endl;
+	a = rand() % 101000 + 1;
+	b = rand() % 101000 + 1;
+	cout << a << " " << b << endl;
 	
-	cout << x+y;
+	cout << a+b;
 }
 
 int main(){
-	long long unsigned int a;
-	long long unsigned int b;
+	long long unsigned int x;
+	long long unsigned int y;
 	srand(time(NULL));
 	sum(a,b);
 	return 0;
