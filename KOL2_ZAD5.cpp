@@ -4,8 +4,8 @@
 using namespace std;
 void sum(int x, int y){
 	int sum = 0;
-	x = rand() % 101000 + 1;
-	y = rand() % 101000 + 1;
+	x = rand() % 1000100 + 1;
+	y = rand() % 1010100 + 1;
 	cout << x << " " << y << endl;
 	
 	cout << x+y;
